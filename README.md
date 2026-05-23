@@ -10,7 +10,11 @@ A plain-English reference guide for every plugin and skill across Anthropic's of
 | `plugin-skills-detailed.html` | **Main reference** — every individual skill in every plugin, searchable |
 | `README.txt` | Original list of source repositories |
 
-Open the HTML files in any browser — no server needed, no dependencies.
+**Live on GitHub Pages:**
+- https://az9713.github.io/anthropic-plugins-references/plugin-skills-detailed.html
+- https://az9713.github.io/anthropic-plugins-references/plugin-directory.html
+
+Or open the HTML files locally in any browser — no server needed, no dependencies.
 
 ---
 
