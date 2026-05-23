@@ -16,16 +16,17 @@ Open the HTML files in any browser — no server needed, no dependencies.
 
 ## The Journey
 
-The 4 source repositories contain hundreds of Claude plugins spanning sales, finance, legal, engineering, and more. Most documentation is written for technical professionals using domain-specific language. The goal of this project was to translate all of it into plain English, organized by individual *skill* (the smallest callable unit in a plugin), so anyone — not just professionals — can understand what these tools do and how to use them personally.
+The 5 source repositories contain hundreds of Claude plugins spanning sales, finance, legal, engineering, and more. Most documentation is written for technical professionals using domain-specific language. The goal of this project was to translate all of it into plain English, organized by individual *skill* (the smallest callable unit in a plugin), so anyone — not just professionals — can understand what these tools do and how to use them personally.
 
 ### Phase 1 — High-level overview (`plugin-directory.html`)
 
-A parallel team of 4 research agents fetched the GitHub repos simultaneously using the GitHub API and raw file URLs. Each agent covered one repo:
+A parallel team of 5 research agents fetched the GitHub repos simultaneously using the GitHub API and raw file URLs. Each agent covered one repo:
 
 - `knowledge-work-plugins` — 18 plugins for office professions (sales, marketing, HR, legal, engineering, etc.)
 - `claude-plugins-official` — 44 developer-focused plugins (code review, git workflow, LSP integrations, etc.)
 - `financial-services` — 19 plugins for Wall Street (investment banking, equity research, PE, fund admin, etc.)
 - `claude-plugins-community` — 600+ community-contributed plugins
+- `claude-for-legal` — 12 plugins for in-house legal teams, law students, and legal clinics
 
 The first output was a card-based HTML directory with a quick-reference table mapping personal use cases to plugins.
 
