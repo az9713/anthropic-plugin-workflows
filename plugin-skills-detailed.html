@@ -8,7 +8,7 @@
 :root {
   --bg: #0f1117; --surface: #1a1d27; --surface2: #22263a; --border: #2e3350;
   --text: #e2e8f0; --muted: #8892aa; --tag: #1e2540;
-  --r1: #6c8ef7; --r2: #a78bfa; --r3: #34d399; --r4: #f59e0b;
+  --r1: #6c8ef7; --r2: #a78bfa; --r3: #34d399; --r4: #f59e0b; --r5: #dc2626;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
@@ -32,6 +32,7 @@ nav a.r1{border-color:rgba(108,142,247,.4);} nav a.r1:hover{border-color:var(--r
 nav a.r2{border-color:rgba(167,139,250,.4);} nav a.r2:hover{border-color:var(--r2);}
 nav a.r3{border-color:rgba(52,211,153,.4);} nav a.r3:hover{border-color:var(--r3);}
 nav a.r4{border-color:rgba(245,158,11,.4);} nav a.r4:hover{border-color:var(--r4);}
+nav a.r5{border-color:rgba(220,38,38,.4);} nav a.r5:hover{border-color:var(--r5);}
 
 .repo{max-width:960px;margin:40px auto 0;padding:0 20px;}
 .repo-hdr{display:flex;align-items:center;gap:14px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid var(--border);}
@@ -40,11 +41,13 @@ nav a.r4{border-color:rgba(245,158,11,.4);} nav a.r4:hover{border-color:var(--r4
 .r2 .repo-num{background:#271a4a;color:var(--r2);}
 .r3 .repo-num{background:#1a3a2a;color:var(--r3);}
 .r4 .repo-num{background:#3a2a1a;color:var(--r4);}
+.r5 .repo-num{background:#3a1a1a;color:var(--r5);}
 .repo-hdr h2{font-size:1.4rem;font-weight:800;}
 .r1 .repo-hdr h2{color:var(--r1);}
 .r2 .repo-hdr h2{color:var(--r2);}
 .r3 .repo-hdr h2{color:var(--r3);}
 .r4 .repo-hdr h2{color:var(--r4);}
+.r5 .repo-hdr h2{color:var(--r5);}
 .repo-hdr p{color:var(--muted);font-size:.85rem;margin-top:2px;}
 
 .plugin{margin-bottom:10px;border:1px solid var(--border);border-radius:10px;overflow:hidden;}
@@ -88,11 +91,11 @@ footer{text-align:center;padding:40px;color:var(--muted);font-size:.8rem;margin-
 
 <header>
   <h1>Anthropic Plugins — Every Skill, Plain English</h1>
-  <p>Every individual skill across all 4 repos, explained simply. Click any plugin to expand its skills.</p>
+  <p>Every individual skill across all 5 repos, explained simply. Click any plugin to expand its skills.</p>
   <div class="stats">
-    <div class="stat">Repos: <strong>4</strong></div>
-    <div class="stat">Plugins: <strong>60+</strong></div>
-    <div class="stat">Skills documented: <strong>200+</strong></div>
+    <div class="stat">Repos: <strong>5</strong></div>
+    <div class="stat">Plugins: <strong>70+</strong></div>
+    <div class="stat">Skills documented: <strong>300+</strong></div>
   </div>
 </header>
 
@@ -105,6 +108,7 @@ footer{text-align:center;padding:40px;color:var(--muted);font-size:.8rem;margin-
   <a href="#r2" class="r2">🛠 Official Tools</a>
   <a href="#r3" class="r3">💹 Financial Services</a>
   <a href="#r4" class="r4">🌐 Community</a>
+  <a href="#r5" class="r5">⚖️ Legal</a>
 </nav>
 
 <!-- ═══════════════════════════════════════════════════════ REPO 1 -->
@@ -855,7 +859,7 @@ footer{text-align:center;padding:40px;color:var(--muted);font-size:.8rem;margin-
 </section>
 
 
-<section class="repo" style="--repo-color:#dc2626;">
+<section class="repo r5" id="r5" style="--repo-color:#dc2626;">
   <div class="repo-header">
     <h2>📚 claude-for-legal <span style="font-size:0.75rem;font-weight:400;opacity:0.7;margin-left:8px;">github.com/anthropics/claude-for-legal</span></h2>
     <p>12 purpose-built plugins for in-house legal teams, litigation counsel, IP attorneys, privacy professionals, law students, and legal clinics. Each plugin knows the workflow, terminology, and escalation rules for its specific practice area.</p>
