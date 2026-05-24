@@ -10,7 +10,7 @@ A user-first reference and workflow guide for Claude's official plugin ecosystem
 
 Most plugin documentation is written for technical professionals and organized by repository. This project flips that: every skill is translated into plain English, and the **Workflows tab** shows how to combine skills from multiple plugins and repos to complete a real-world goal end-to-end.
 
-![Finance & Investment Workflows](finance_investment_workflows.jpg)
+![Finance & Investment Workflows](docs/finance_investment_workflows.jpg)
 
 ---
 
